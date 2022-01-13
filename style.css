@@ -1,0 +1,41 @@
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../Main-Site/images/background.png");
+    background-size: cover;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 5vh;
+}
+
+.text h1 blue {
+    color: #233dff;
+}
+
+.text h1 yellow {
+    color: #ffcc00;
+    ;
+}
+
+.text b1 {
+    color: #fff;
+    font-size: 3vh;
+}
+
+.text b1 blue {
+    color: #233dff;
+}
+
+.text b1 yellow {
+    color: #ffcc00;
+    ;
+}
