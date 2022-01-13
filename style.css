@@ -9,6 +9,12 @@ body {
     padding: 20px 10px;
 }
 
+.header img {
+    max-width: 100%;
+    max-height: 3vh;
+    display: block;
+}
+
 .header a {
     float: left;
     color: #fff;
