@@ -45,7 +45,20 @@
 
 <body>
     <div class="page">
-        <header id="header" class="header"></header>
+        <div id="topbar" class="fixed">
+            <header id="header" class="header">
+                <div class="header-right">
+                    <a href="..">Home</a>
+                    <a href="drivers">Drivers</a>
+                    <a href="mechanics">Mechanics</a>
+                    <a href="sponsors">Sponsors</a>
+                    <a href="contact">Contact</a>
+                    <a href="https://www.scuderiapacifica.org/language">
+                        <img alt="English" src="https://www.scuderiapacifica.org/images/lang/en-flag.png">
+                    </a>
+                </div>
+            </header>
+        </div>
         <div class="text">
             <h1>
                 <blue>
@@ -59,11 +72,23 @@
                 </blue>
             </b1>
 
-            <!-- <div class="sec2">
+            <div class="sec2">
                 <b1>
                     test
                 </b1>
-            </div> -->
+            </div>
         </div>
     </div>
+
+    <script>
+        const topbar = document.getElementById("topbar")
+
+        window.onscroll = function(e) {
+            if (window.pageYOffset >= 5) {
+                topbar.className = "fixed topbar"
+            } else {
+                topbar.className = "fixed"
+            }
+        }
+    </script>
 </body>
