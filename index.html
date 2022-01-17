@@ -45,10 +45,7 @@
 
 <body>
     <div class="page">
-        <div id="topbar" class="fixed">
-            <header id="header" class="header">
-            </header>
-        </div>
+        <header id="header" class="header"></header>
         <div class="text">
             <h1>
                 <blue>
@@ -63,16 +60,4 @@
             </b1>
         </div>
     </div>
-
-    <script>
-        const topbar = document.getElementById("topbar")
-
-        window.onscroll = function(e) {
-            if (window.pageYOffset >= 5) {
-                topbar.className = "fixed topbar"
-            } else {
-                topbar.className = "fixed"
-            }
-        }
-    </script>
 </body>
