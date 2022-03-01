@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://www.scuderiapacifica.org/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-        $(function() {
+        $(function () {
             $("#header").load("header.html");
         })
     </script>
@@ -40,7 +42,14 @@
     <!-- Style.css override -->
     <style>
         img1 {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/drivers.jpg");   
+            background-image: url("https://www.scuderiapacifica.org/images/drivers.jpg");
+            /* min-height: 100vh; */
+        }
+        img2 {
+            background-image: url("https://www.scuderiapacifica.org/images/adrien.jpg");
+        }
+        img3 {
+            background-image: url("https://www.scuderiapacifica.org/images/damian.png");
         }
     </style>
 </head>
@@ -49,17 +58,56 @@
     <div class="page">
         <header id="header" class="header"></header>
         <background>
-            <img1></img1>
-            <div class="text">
-                <h1>
-                    Drivers
-                </h1>
-                <b1>
-                    <a href="adrien">Adrien Dumont</a><br>
-                    <a href="damian">Damian Lopez</a><br>
-                    <!-- <a href="thomas">Thomas Heacock</a><br> -->
-                </b1>
-            </div>
+            <img1>
+                <div class="text">
+                    <h1>
+                        Drivers
+                    </h1>
+                    <b1>
+                        <a href="adrien">Adrien Dumont</a><br>
+                        <a href="damian">Damian Lopez</a><br>
+                        <!-- <a href="thomas">Thomas Heacock</a><br> -->
+                    </b1>
+                </div>
+            </img1>
+        </background>
+        <background>
+            <img2>
+                <div class="text">
+                    <h1>
+                        Adrien Dumont
+                    </h1>
+                    <b1>
+                        I was born July 2007 in Champigny-Sûr-Marne, France. I have loved Cars for as long as I can
+                        remember and was born in a Family that loved Cars, being introduced to them Early on in my life.
+                        I started Sim-racing online at the age of 9 on Assetto Corsa and Gran Turismo, and drove my
+                        first car at the age of 11. I started racing physically December 26th 2020 in the Pacific GP
+                        League Series in the Pro-Am Category. I now race in the Pacific GP Pro League Series with 425
+                        Motorsports, and am the leading Junior Driver in the Series.
+                    </b1>
+                </div>
+            </img2>
+        </background>
+        <background>
+            <img3>
+                <div class="text">
+                    <h1>
+                        Damian Lopez
+                    </h1>
+                    <b1>
+                        My racing career started way before I got behind the wheel in the summer of 2019. It started
+                        when I was three, when I first watched cars, and from what I heard i was truly captivated by the
+                        cars themselves and from there on I lost myself in the family tradition of cars. Fast forward to
+                        when I started racing karts was because, the final push ended up being drive to survive on
+                        Netflix, which is a show about the background of formula 1. That summer I went out to pgp to do
+                        the junior driver test and I passed and after about a year of practice I went to pro-am in my
+                        first season Finished 4th in the championship and the following one I won the championship by
+                        ten points after a season long battle with the runner up and now I am driving in the pro
+                        category and hope to make my mark in 206 series in karting with this new team Scuderia Pacifica.
+                        there you go
+                    </b1>
+                </div>
+            </img3>
         </background>
     </div>
 </body>
