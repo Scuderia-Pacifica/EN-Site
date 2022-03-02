@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="https://www.scuderiapacifica.org/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-        $(function() {
+        $(function () {
             $("#header").load("header.html");
         })
     </script>
@@ -39,7 +41,19 @@
 
     <!-- Style.css override -->
     <style>
-
+        img1 {
+            /* background-image: url("https://www.scuderiapacifica.org/images/drivers.jpg"); */
+            min-height: 100vh;
+        }
+        img2 {
+            background-image: url("https://www.scuderiapacifica.org/images/brogan.jpg");
+            min-height: 100vh;
+        }
+        img3 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://www.scuderiapacifica.org/images/nathan.jpg");
+            background-position: center 30%;
+            min-height: 100vh;
+        }
     </style>
 </head>
 
@@ -47,16 +61,45 @@
     <div class="page">
         <header id="header" class="header"></header>
         <background>
-            <img1></img1>
-            <div class="text">
-                <h1>
-                    Mechanics
-                </h1>
-                <b1>
-                    <a href="brogan">Brogan McNamara</a><br>
-                    <a href="nathan">Nathan Holden</a><br>
-                </b1>
-            </div>
+            <img1>
+                <div class="text">
+                    <h1>
+                        Mechanics
+                    </h1>
+                    <b1>
+                        <a href="#brogan">Brogan McNamara</a><br>
+                        <a href="#nathan">Nathan Holden</a><br>
+                    </b1>
+                </div>
+            </img1>
+        </background>
+        <background id="brogan">
+            <img2>
+                <div class="text">
+                    <h1>
+                        Brogan McNamara
+                    </h1>
+                    <b1>
+                        Hi, I'm Brogan and I was born in 2007. Machines and engines of all types have been an integral part of my childhood for as long as I can remember. I was born in Seattle, and typically can be found at a workbench or at the airport working on one of my
+                        dad's planes
+                    </b1>
+                </div>
+            </img2>
+        </background>
+        <background id="nathan">
+            <img3>
+                <div class="text">
+                    <h1>
+                        Nathan Holden
+                    </h1>
+                    <b1>
+                        I was born January 2007 in Seattle, Washington, USA. I've loved working on cars for a long time.
+                        I was introduced to working on cars by my father when I was young on a 80 Series Toyota Land
+                        cruiser. When I was 13 I started playing Beamng Drive, Forza
+                        Horizon 4, and Car Mechanic Simulator.
+                    </b1>
+                </div>
+            </img3>
         </background>
     </div>
 </body>
