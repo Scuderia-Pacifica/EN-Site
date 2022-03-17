@@ -2,70 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.scuderiapacifica.org/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-        $(function () {
-            $("#header").load("header.html");
-        })
-    </script>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="cookie.js"></script>
+	<script src="redirect.js" onload="load()"></script>
 
-    <link rel="shortcut icon" href="https://www.scuderiapacifica.org/images/favicon.ico" type="image/x-icon">
-    <!-- Primary Meta Tags -->
-    <title>Scuderia Pacifica</title>
-    <meta name="title" content="Scuderia Pacifica">
-    <meta name="description" content="An upcoming team trying to introduce youth to motorsports">
+	<link rel="shortcut icon" href="https://www.scuderiapacifica.com/images/favicon.ico" type="image/x-icon">
+	<!-- Primary Meta Tags -->
+	<title>Scuderia Pacifica</title>
+	<meta name="title" content="Scuderia Pacifica">
+	<meta name="description" content="An upcoming team trying to introduce youth to motorsports">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.scuderiapacifica.org">
-    <meta property="og:title" content="Scuderia Pacifica">
-    <meta property="og:description" content="An upcoming team trying to introduce youth to motorsports">
-    <meta property="og:image" content="https://www.scuderiapacifica.org/images/background.png">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.scuderiapacifica.com">
+	<meta property="og:title" content="Scuderia Pacifica">
+	<meta property="og:description" content="An upcoming team trying to introduce youth to motorsports">
+	<meta property="og:image" content="https://www.scuderiapacifica.com/images/background.png">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.scuderiapacifica.org">
-    <meta property="twitter:title" content="Scuderia Pacifica">
-    <meta property="twitter:description" content="An upcoming team trying to introduce youth to motorsports">
-    <meta property="twitter:image" content="https://www.scuderiapacifica.org/images/background.png">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.scuderiapacifica.com">
+	<meta property="twitter:title" content="Scuderia Pacifica">
+	<meta property="twitter:description" content="An upcoming team trying to introduce youth to motorsports">
+	<meta property="twitter:image" content="https://www.scuderiapacifica.com/images/background.png">
 
-    <!-- Style.css override -->
-    <style>
-        img1 {
-            min-height: 100vh;
-        }
-    </style>
+	<!-- Style.css override -->
+	<style>
+
+	</style>
 </head>
 
 <body>
-    <div class="page">
-        <header id="header" class="header"></header>
-        <background>
-            <img1>
-                <div class="text">
-                    <h1>
-                        <blue>
-                            Scuderia Pacifica
-                        </blue>
-                    </h1>
-                    <b1>
-                        An upcoming team trying to introduce youth to
-                        <blue>
-                            motorsports
-                        </blue>
-                    </b1>
-                </div>
-            </img1>
-        </background>
-    </div>
+	<header>
+		<div class="wrapper">
+			<div id="header"></div>
+			<div id="welTxt" class="welcome-text">
+				<h1>
+					We are <span> <br> Scuderia Pacifica
+				</h1>
+				<br>
+				<b1 style="text-transform: uppercase;">
+					</span> An upcoming team trying to introduce youth to <span> Motorsports </span> </h1>
+				</b1>
+				<br>
+				<a href="contact">Contact US</a>
+			</div>
+
+	</header>
 </body>
+
+</html>
