@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+@import url(bootstrap-4.4.1.css);
+
+html {
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+body {
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.img-header {
+	max-width: auto;
+	height: 2.5rem;
+}
+
+.img-product {
+    width: 10rem;
+    height: auto;
+}
+
+.bg-navy {
+	background-color: #02075d !important;
+}
+
+.bg-dark-navy {
+	background-color: #000020 !important;
+}
+.bg-very-dark {
+	background-color: #202022 !important;
+}
+.bg-dark {
+	background-color: #2e2e33 !important;
+}
+
+.btn-yellow {
+	color: #343a40;
+  	background-color: #ffcc00;
+  	border-color: #ffcc00;
+}
+.btn-yellow:not(:disabled):not(.disabled):active, .btn-yellow:not(:disabled):not(.disabled).active,
+.show > .btn-yellow.dropdown-toggle {
+  	color: #343a40;
+  	background-color: #233dff;
+ 	border-color: #233dff;
+}
+.btn-yellow:hover {
+	color: #fff;
+  	background-color: #233dff;
+  	border-color: #233dff;
+}
+
+.text-yellow {
+    color: #ffcc00 !important;
+}
